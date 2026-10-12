@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - pajar afriano</title>
+    
+    <!-- KODE CSS (DESAIN) SUDAH DISATUKAN DI SINI -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        /* Desain Header / Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #4f46e5, #06b6d4);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        /* Desain Kotak Konten */
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #4f46e5;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 5px;
+        }
+
+        /* Desain Tabel Biodata */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            width: 35%;
+            color: #555;
+        }
+
+        /* Desain Daftar Skill */
+        ul {
+            list-style-position: inside;
+            padding-left: 10px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Desain Link Kontak */
+        .links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #06b6d4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        /* Desain Responsif Biar Rapi di HP */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            table, tr, td, th {
+                display: block;
+                width: 100%;
+            }
+            th {
+                border-bottom: none;
+                padding-bottom: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <!-- Taruh foto kamu di folder yang sama dengan file ini, lalu ganti nama file di bawah -->
+        <img src="gelo.jpg" alt="Foto Profil" class="profile-img">
+        <h1>pajar afriano</h1>
+        <p class="tagline">Kelas XI RPL | Calon bintang imo 1000</p>
+    </header>
+
+    <div class="container">
+        <!-- Tentang Saya -->
+        <section class="about">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya adalah seorang siswa XI RPL yang tertarik dengan dunia teknologi dan pemrograman. Di waktu luang, saya suka belajar hal baru, membaca, dan mengembangkan kreativitas saya.</p>
+        </section>
+
+        <!-- Biodata (Tabel) -->
+        <section class="biodata">
+            <h2>Biodata Diri</h2>
+            <table>
+                <tr>
+                    <th>Tempat, Tanggal Lahir</th>
+                    <td>sungai raya, 17 april 2009</td>
+                </tr>
+                <tr>
+                    <th>Alamat</th>
+                    <td>Jl. nurul huda,gg sgo</td>
+                </tr>
+                <tr>
+                    <th>Email Sekolah</th>
+                    <td>pajar afriano@siswa.sch.id</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Keahlian / Skills -->
+        <section class="skills">
+            <h2>Keahlian & hobi</h2>
+            <ul>
+                <li>HTML & CSS Dasar</li>
+                <li>Desain Grafis (Canva)</li>
+                <li>Public Speaking</li>
+            </ul>
+        </section>
+
+        <!-- Kontak / Media Sosial -->
+        <section class="contact">
+            <h2>Hubungi Saya</h2>
+            <p>Mari berteman dan berkolaborasi di media sosial!</p>
+            <div class="links">
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="mailto:pajar afriano@siswa.sch.id">Email Sekolah</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Nama Kamu. All rights reserved.</p>
+    </footer>
+
+    <!-- KODE JAVASCRIPT UNTUK NILAI PLUS -->
+    <script>
+        console.log("Selamat datang di website profil saya!");
+    </script>
+</body>
+</html>
